@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131DD9042C3B2103004B1F3C /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131DD9032C3B2103004B1F3C /* HttpMethod.swift */; };
 		13611CFC2C33D7E500867C49 /* Clean1001App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13611CFB2C33D7E500867C49 /* Clean1001App.swift */; };
 		13611CFE2C33D7E500867C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13611CFD2C33D7E500867C49 /* ContentView.swift */; };
 		13611D002C33D7E600867C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13611CFF2C33D7E600867C49 /* Assets.xcassets */; };
@@ -19,9 +20,23 @@
 		13611D1A2C33E07A00867C49 /* MessageRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13611D192C33E07A00867C49 /* MessageRepositoryImpl.swift */; };
 		13611D1F2C33E1A000867C49 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13611D1E2C33E1A000867C49 /* MessageListViewModel.swift */; };
 		13611D212C33E23F00867C49 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13611D202C33E23F00867C49 /* MessageListView.swift */; };
+		13F787F12C46D3FF0080CE43 /* MovieFeedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787F02C46D3FF0080CE43 /* MovieFeedDataSource.swift */; };
+		13F787F32C46D44F0080CE43 /* MovieFeedDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787F22C46D44F0080CE43 /* MovieFeedDataSourceImpl.swift */; };
+		13F787F72C46E7140080CE43 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787F62C46E7140080CE43 /* HttpMethod.swift */; };
+		13F787F92C46E7200080CE43 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787F82C46E7200080CE43 /* ApiEndpoint.swift */; };
+		13F787FB2C46E72A0080CE43 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787FA2C46E72A0080CE43 /* NetworkError.swift */; };
+		13F787FD2C46E7930080CE43 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787FC2C46E7930080CE43 /* NetworkManager.swift */; };
+		13F788002C46E9650080CE43 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F787FF2C46E9650080CE43 /* Endpoint.swift */; };
+		13F8C11E2C44CD0900A36835 /* MovieFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F8C11D2C44CD0900A36835 /* MovieFeedView.xib */; };
+		13F8C11F2C44CD0900A36835 /* MovieFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8C11C2C44CD0900A36835 /* MovieFeedView.swift */; };
+		13F8C1252C44CDC600A36835 /* CryptoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8C1242C44CDC600A36835 /* CryptoFeed.swift */; };
+		13F8C1292C44E5D100A36835 /* CryptoFeedRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8C1282C44E5D100A36835 /* CryptoFeedRepositoryImpl.swift */; };
+		13F8C12B2C44E61900A36835 /* CryptoFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8C12A2C44E61900A36835 /* CryptoFeedRepository.swift */; };
+		13F8C12F2C44E68E00A36835 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F8C12E2C44E68E00A36835 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131DD9032C3B2103004B1F3C /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		13611CF82C33D7E500867C49 /* Clean1001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clean1001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13611CFB2C33D7E500867C49 /* Clean1001App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean1001App.swift; sourceTree = "<group>"; };
 		13611CFD2C33D7E500867C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +50,19 @@
 		13611D192C33E07A00867C49 /* MessageRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepositoryImpl.swift; sourceTree = "<group>"; };
 		13611D1E2C33E1A000867C49 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 		13611D202C33E23F00867C49 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		13F787F02C46D3FF0080CE43 /* MovieFeedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedDataSource.swift; sourceTree = "<group>"; };
+		13F787F22C46D44F0080CE43 /* MovieFeedDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedDataSourceImpl.swift; sourceTree = "<group>"; };
+		13F787F62C46E7140080CE43 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		13F787F82C46E7200080CE43 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		13F787FA2C46E72A0080CE43 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		13F787FC2C46E7930080CE43 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		13F787FF2C46E9650080CE43 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		13F8C11C2C44CD0900A36835 /* MovieFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedView.swift; sourceTree = "<group>"; };
+		13F8C11D2C44CD0900A36835 /* MovieFeedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieFeedView.xib; sourceTree = "<group>"; };
+		13F8C1242C44CDC600A36835 /* CryptoFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFeed.swift; sourceTree = "<group>"; };
+		13F8C1282C44E5D100A36835 /* CryptoFeedRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFeedRepositoryImpl.swift; sourceTree = "<group>"; };
+		13F8C12A2C44E61900A36835 /* CryptoFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoFeedRepository.swift; sourceTree = "<group>"; };
+		13F8C12E2C44E68E00A36835 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131DD9012C3B1E94004B1F3C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				13611D0C2C33D89A00867C49 /* Repository */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		131DD9022C3B20EB004B1F3C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				131DD9032C3B2103004B1F3C /* HttpMethod.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		13611CEF2C33D7E500867C49 = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				13611CFB2C33D7E500867C49 /* Clean1001App.swift */,
+				13F787F42C46E7000080CE43 /* Utils */,
+				131DD9022C3B20EB004B1F3C /* Network */,
 				13611D092C33D7F000867C49 /* Presentation */,
 				13611D0A2C33D87C00867C49 /* Data */,
+				131DD9012C3B1E94004B1F3C /* API */,
 				13611D0B2C33D88000867C49 /* Domain */,
 				13611CFD2C33D7E500867C49 /* ContentView.swift */,
 				13611CFF2C33D7E600867C49 /* Assets.xcassets */,
@@ -89,6 +136,7 @@
 		13611D092C33D7F000867C49 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				13F8C11B2C44C2C600A36835 /* MovieFeed */,
 				13611D1B2C33E15B00867C49 /* Home */,
 			);
 			path = Presentation;
@@ -97,8 +145,8 @@
 		13611D0A2C33D87C00867C49 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				13611D112C33DA5A00867C49 /* MessageDataSource.swift */,
-				13611D132C33DE9100867C49 /* MessageDataSourceImpl.swift */,
+				13F787EF2C46D3B60080CE43 /* Message */,
+				13F787EE2C46D39E0080CE43 /* MovieFeed */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -106,7 +154,6 @@
 		13611D0B2C33D88000867C49 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				13611D0C2C33D89A00867C49 /* Repository */,
 				13611D0D2C33D8A100867C49 /* UseCases */,
 				13611D0E2C33D8B200867C49 /* Model */,
 			);
@@ -116,8 +163,8 @@
 		13611D0C2C33D89A00867C49 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				13611D172C33E04B00867C49 /* MessageRepository.swift */,
-				13611D192C33E07A00867C49 /* MessageRepositoryImpl.swift */,
+				13F8C1272C44E5B200A36835 /* MovieFeed */,
+				13F8C1262C44E5A800A36835 /* Message */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -125,7 +172,8 @@
 		13611D0D2C33D8A100867C49 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				13611D152C33DF9D00867C49 /* GetMessage.swift */,
+				13F8C1232C44CD9A00A36835 /* Messages */,
+				13F8C1222C44CD9300A36835 /* MovieFeed */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -133,7 +181,8 @@
 		13611D0E2C33D8B200867C49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				13611D0F2C33D8FD00867C49 /* Message.swift */,
+				13F8C12D2C44E68300A36835 /* Movie */,
+				13F8C12C2C44E67A00A36835 /* Message */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +210,119 @@
 				13611D202C33E23F00867C49 /* MessageListView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		13F787EE2C46D39E0080CE43 /* MovieFeed */ = {
+			isa = PBXGroup;
+			children = (
+				13F787F02C46D3FF0080CE43 /* MovieFeedDataSource.swift */,
+				13F787F22C46D44F0080CE43 /* MovieFeedDataSourceImpl.swift */,
+			);
+			path = MovieFeed;
+			sourceTree = "<group>";
+		};
+		13F787EF2C46D3B60080CE43 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				13611D112C33DA5A00867C49 /* MessageDataSource.swift */,
+				13611D132C33DE9100867C49 /* MessageDataSourceImpl.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		13F787F42C46E7000080CE43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13F787F52C46E70A0080CE43 /* Network */,
+				13F787FF2C46E9650080CE43 /* Endpoint.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		13F787F52C46E70A0080CE43 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				13F787F62C46E7140080CE43 /* HttpMethod.swift */,
+				13F787F82C46E7200080CE43 /* ApiEndpoint.swift */,
+				13F787FA2C46E72A0080CE43 /* NetworkError.swift */,
+				13F787FC2C46E7930080CE43 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		13F8C11B2C44C2C600A36835 /* MovieFeed */ = {
+			isa = PBXGroup;
+			children = (
+				13F8C1212C44CD3500A36835 /* ViewModel */,
+				13F8C1202C44CD3100A36835 /* View */,
+			);
+			path = MovieFeed;
+			sourceTree = "<group>";
+		};
+		13F8C1202C44CD3100A36835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13F8C11C2C44CD0900A36835 /* MovieFeedView.swift */,
+				13F8C11D2C44CD0900A36835 /* MovieFeedView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13F8C1212C44CD3500A36835 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13F8C1222C44CD9300A36835 /* MovieFeed */ = {
+			isa = PBXGroup;
+			children = (
+				13F8C1242C44CDC600A36835 /* CryptoFeed.swift */,
+			);
+			path = MovieFeed;
+			sourceTree = "<group>";
+		};
+		13F8C1232C44CD9A00A36835 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				13611D152C33DF9D00867C49 /* GetMessage.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		13F8C1262C44E5A800A36835 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				13611D172C33E04B00867C49 /* MessageRepository.swift */,
+				13611D192C33E07A00867C49 /* MessageRepositoryImpl.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		13F8C1272C44E5B200A36835 /* MovieFeed */ = {
+			isa = PBXGroup;
+			children = (
+				13F8C1282C44E5D100A36835 /* CryptoFeedRepositoryImpl.swift */,
+				13F8C12A2C44E61900A36835 /* CryptoFeedRepository.swift */,
+			);
+			path = MovieFeed;
+			sourceTree = "<group>";
+		};
+		13F8C12C2C44E67A00A36835 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				13611D0F2C33D8FD00867C49 /* Message.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		13F8C12D2C44E68300A36835 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				13F8C12E2C44E68E00A36835 /* Movie.swift */,
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +385,7 @@
 			files = (
 				13611D032C33D7E600867C49 /* Preview Assets.xcassets in Resources */,
 				13611D002C33D7E600867C49 /* Assets.xcassets in Resources */,
+				13F8C11E2C44CD0900A36835 /* MovieFeedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,16 +396,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F8C1292C44E5D100A36835 /* CryptoFeedRepositoryImpl.swift in Sources */,
+				13F8C12B2C44E61900A36835 /* CryptoFeedRepository.swift in Sources */,
+				13F787F12C46D3FF0080CE43 /* MovieFeedDataSource.swift in Sources */,
 				13611D142C33DE9100867C49 /* MessageDataSourceImpl.swift in Sources */,
+				13F787FD2C46E7930080CE43 /* NetworkManager.swift in Sources */,
 				13611D102C33D8FD00867C49 /* Message.swift in Sources */,
+				13F787F32C46D44F0080CE43 /* MovieFeedDataSourceImpl.swift in Sources */,
 				13611CFE2C33D7E500867C49 /* ContentView.swift in Sources */,
+				13F8C1252C44CDC600A36835 /* CryptoFeed.swift in Sources */,
+				13F8C12F2C44E68E00A36835 /* Movie.swift in Sources */,
+				13F8C11F2C44CD0900A36835 /* MovieFeedView.swift in Sources */,
+				13F787F72C46E7140080CE43 /* HttpMethod.swift in Sources */,
 				13611D122C33DA5A00867C49 /* MessageDataSource.swift in Sources */,
+				131DD9042C3B2103004B1F3C /* HttpMethod.swift in Sources */,
 				13611D182C33E04B00867C49 /* MessageRepository.swift in Sources */,
 				13611D1F2C33E1A000867C49 /* MessageListViewModel.swift in Sources */,
+				13F787FB2C46E72A0080CE43 /* NetworkError.swift in Sources */,
+				13F788002C46E9650080CE43 /* Endpoint.swift in Sources */,
 				13611D1A2C33E07A00867C49 /* MessageRepositoryImpl.swift in Sources */,
 				13611D162C33DF9D00867C49 /* GetMessage.swift in Sources */,
 				13611D212C33E23F00867C49 /* MessageListView.swift in Sources */,
 				13611CFC2C33D7E500867C49 /* Clean1001App.swift in Sources */,
+				13F787F92C46E7200080CE43 /* ApiEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
