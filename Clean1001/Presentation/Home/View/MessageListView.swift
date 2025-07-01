@@ -13,7 +13,7 @@ struct MessageListView: View {
     
     var body: some View {
         VStack {
-            Text("Messages: 001")
+            Text("Messages: 002")
             List(viewModel.messages) { message in
                 Text(message.text)
             }
