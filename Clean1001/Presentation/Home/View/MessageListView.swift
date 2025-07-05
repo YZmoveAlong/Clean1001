@@ -13,7 +13,8 @@ struct MessageListView: View {
     
     var body: some View {
         VStack {
-            Text("Messages: ")
+            Text("Messages: CLN-6")
+            Text("TEST FOR AUTO IN REVIEW")
             List(viewModel.messages) { message in
                 Text(message.text)
             }
